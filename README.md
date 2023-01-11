@@ -22,4 +22,3 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 ![image](https://user-images.githubusercontent.com/91480603/211861707-29811534-cb2c-4db1-a71f-4b7f9ddf43a9.png)
 
-
