@@ -15,4 +15,11 @@ CloudFront caches content at edge locations for a period of time that you specif
 3. On the **Create Distribution** page, in the **Origin Settings** section, for **Origin Domain Name**, enter the Amazon S3 website endpoint for your bucket - **s3.markbradley.cloud.s3-website-us-east-1.amazonaws.com**
 4. For **Default Cache Behavior** Settings, keep the values set to the defaults
 5. For **Viewer** Settings, Viewer protocol policy default is **HTTP and HTTPS**, choose **HTTPS only**
-6. 
+6. For **Distribution Settings**, leave **Price Class** set to **Use all Edge Locations (Best Performance)**
+7. Leave all other defaults and choose **Create distribution**
+8. Record the value of **Domain Name** shown in the CloudFront > Distributions console - example: **https://d13gl6jkv1tr9.cloudfront.net**
+9. Verify the CloudFront distribution is working by entering the domain name in a web browser
+
+![image](https://user-images.githubusercontent.com/91480603/211861707-29811534-cb2c-4db1-a71f-4b7f9ddf43a9.png)
+
+
