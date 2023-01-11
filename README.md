@@ -26,7 +26,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 ![image](https://user-images.githubusercontent.com/91480603/211874671-0a8b77c4-9d46-497c-8828-209465c67f5c.png)
 
-# Edit CloudFront custom domain and SSL cert
+# Edit CloudFront distribution with custom domain and SSL cert
 
 **Simple overview** **S3+Route53+CloudFront+AWS Certificate Manager**
 
