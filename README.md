@@ -6,3 +6,9 @@ You can use Amazon CloudFront to improve the performance of your Amazon S3 websi
 
 CloudFront caches content at edge locations for a period of time that you specify. If a visitor requests content that has been cached for longer than the expiration date, CloudFront checks the origin server to see if a newer version of the content is available. If a newer version is available, CloudFront copies the new version to the edge location. Changes that you make to the original content are replicated to edge locations as visitors request the content.
 
+# Create a CloudFront distribution
+
+**To create a distribution with an Amazon S3 origin**
+
+1. Open the CloudFront console at **https://console.aws.amazon.com/cloudfront/v3/home**
+2. 
