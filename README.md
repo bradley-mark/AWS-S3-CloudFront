@@ -61,4 +61,6 @@ CloudFront caches content at edge locations for a period of time that you specif
 6. Under **Route traffic to**, choose **Alias to CloudFront distribution**
 7. Under **Choose distribution**, choose the CloudFront distribution
 8. Choose **Save**
+9. Verify the CloudFront distribution is working by entering the domain name in a web browser
+
 
