@@ -43,7 +43,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 **CloudFront**
 
-1. Open the CloudFront console at https://console.aws.amazon.com/cloudfront/v3/home
+1. Open the CloudFront console at **https://console.aws.amazon.com/cloudfront/v3/home**
 2. Select **Distribution ID** and **Settings** **Edit**
 3. **Alternate domain name (CNAME)** **Add item** markbradley.cloud
 4. **Custom SSL certificate** choose certificate and select **new ACM certificate**
@@ -51,5 +51,14 @@ CloudFront caches content at edge locations for a period of time that you specif
 6. **Standard logging** Choose **On** select **S3 bucket** and **enable ACLs**
 7. **Save changes**
 
+**Route 53**
 
-9. 
+1. Open the Route 53 console at **https://console.aws.amazon.com/route53/**
+2. In navigation, choose **Hosted zones**
+3. In **Hosted zones** select markbradley.cloud
+4. Under **Records**, select the *A* record that you created for your subdomain
+5. Under **Record details**, choose **Edit record**
+6. Under **Route traffic to**, choose **Alias to CloudFront distribution**
+7. Under **Choose distribution**, choose the CloudFront distribution
+8. Choose **Save**
+
