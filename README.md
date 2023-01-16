@@ -41,3 +41,15 @@ CloudFront caches content at edge locations for a period of time that you specif
 5. Choose **Key algorithm** default RSA 2048
 6. Choose **Request**
 
+**CloudFront**
+
+1. Open the CloudFront console at https://console.aws.amazon.com/cloudfront/v3/home
+2. Select **Distribution ID** and **Settings** **Edit**
+3. **Alternate domain name (CNAME)** **Add item** markbradley.cloud
+4. **Custom SSL certificate** choose certificate and select **new ACM certificate**
+5. Keep defaults TLSv1.2 HTTP/2 IPv6
+6. **Standard logging** Choose **On** select **S3 bucket** and **enable ACLs**
+7. **Save changes**
+
+
+9. 
