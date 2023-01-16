@@ -32,5 +32,12 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 ![image](https://user-images.githubusercontent.com/91480603/211873795-5b9d8b76-024d-405f-b497-61f210f499cd.png)
 
+**AWS Certificate Manager (ACM)**
 
+1. Choose **Request certificate**
+2. Request a public certificate choose **Next**
+3. Type **Fully qualified domain name**
+4. Choose **Validation method** either *DNS validation** or **Email validation**
+5. Choose **Key algorithm** default RSA 2048
+6. Choose Request
 
