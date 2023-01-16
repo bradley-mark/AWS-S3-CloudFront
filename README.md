@@ -39,5 +39,5 @@ CloudFront caches content at edge locations for a period of time that you specif
 3. Type **Fully qualified domain name**
 4. Choose **Validation method** either *DNS validation** or **Email validation**
 5. Choose **Key algorithm** default RSA 2048
-6. Choose Request
+6. Choose **Request**
 
