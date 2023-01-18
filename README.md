@@ -45,10 +45,10 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 1. Open the CloudFront console at **https://console.aws.amazon.com/cloudfront/v3/home**
 2. Select **Distribution ID** and **Settings** **Edit**
-3. **Alternate domain name (CNAME)** **Add item** markbradley.cloud
-4. **Custom SSL certificate** choose certificate and select **new ACM certificate**
+3. **Alternate domain name (CNAME)** **Add item** www.markbradley.cloud
+4. **Custom SSL certificate** choose certificate and select **new ACM certificate** www.markbradley.cloud
 5. Keep defaults TLSv1.2 HTTP/2 IPv6
-6. **Standard logging** Choose **On** select **S3 bucket** and **enable ACLs**
+6. **Standard logging** Choose **On** select **S3 bucket**
 7. **Save changes**
 
 **Route 53**
