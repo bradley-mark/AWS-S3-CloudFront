@@ -48,7 +48,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 3. **Alternate domain name (CNAME)** **Add item** www.markbradley.cloud
 4. **Custom SSL certificate** choose certificate and select **new ACM certificate** www.markbradley.cloud
 5. Keep defaults TLSv1.2 HTTP/2 IPv6
-6. **Standard logging** Choose **On** select **S3 bucket**
+6. **Standard logging** Choose **On** select **S3 bucket** www.markbradley.cloud.s3.amazonaws.com
 7. **Save changes**
 
 **Route 53**
