@@ -64,7 +64,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 9. Verify the CloudFront distribution is working by entering the domain name in a web browser
 
 **Google Domains**
-1. Login to Google Domains
+1. Login to Google Domains for markbradley.cloud
 2. Choose **DNS**
 3. Select **Manage custom records**
 4. **Create new record**
