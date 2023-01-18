@@ -16,15 +16,15 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 1. Open the CloudFront console at **https://console.aws.amazon.com/cloudfront/v3/home**
 2. Choose **Create Distribution**
-3. On the **Create Distribution** page, in the **Origin Settings** section, for **Origin Domain Name**, enter the Amazon S3 website endpoint for your bucket - **markbradley.cloud.s3-website-us-east-1.amazonaws.com**
+3. On the **Create Distribution** page, in the **Origin Settings** section, for **Origin Domain Name**, enter the Amazon S3 website endpoint for your bucket - **www.markbradley.cloud.s3-website-us-east-1.amazonaws.com**
 4. For **Default Cache Behavior** Settings, keep the values set to the defaults
 5. For **Viewer** Settings, Viewer protocol policy default is **HTTP and HTTPS**, choose **HTTPS only**
 6. For **Distribution Settings**, leave **Price Class** set to **Use all Edge Locations (Best Performance)**
 7. Leave all other defaults and choose **Create distribution**
-8. Record the value of **Domain Name** shown in the CloudFront > Distributions console - example: **https://d13gl6jkv1tr9.cloudfront.net**
+8. Record the value of **Domain Name** shown in the CloudFront > Distributions console - example: **https://d1jueg6hw3ibne.cloudfront.net/**
 9. Verify the CloudFront distribution is working by entering the domain name in a web browser
 
-![image](https://user-images.githubusercontent.com/91480603/211874671-0a8b77c4-9d46-497c-8828-209465c67f5c.png)
+![image](https://user-images.githubusercontent.com/91480603/213301993-90a62a24-ebdc-494f-9620-3f6944394923.png)
 
 # Edit CloudFront distribution with custom domain and SSL cert
 
@@ -36,7 +36,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 1. Choose **Request certificate**
 2. Request a public certificate choose **Next**
-3. Type **Fully qualified domain name** markbradley.cloud
+3. Type **Fully qualified domain name** e.g. www.markbradley.cloud (CNAME)
 4. Choose **Validation method** either *DNS validation** or **Email validation**
 5. Choose **Key algorithm** default RSA 2048
 6. Choose **Request**
