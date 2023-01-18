@@ -55,7 +55,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 1. Open the Route 53 console at **https://console.aws.amazon.com/route53/**
 2. In navigation, choose **Hosted zones**
-3. In **Hosted zones** select markbradley.cloud
+3. In **Hosted zones** select www.markbradley.cloud
 4. Under **Records**, select the *A* record that you created for your subdomain
 5. Under **Record details**, choose **Edit record**
 6. Under **Route traffic to**, choose **Alias to CloudFront distribution**
