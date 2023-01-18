@@ -63,4 +63,5 @@ CloudFront caches content at edge locations for a period of time that you specif
 8. Choose **Save**
 9. Verify the CloudFront distribution is working by entering the domain name in a web browser
 
+![image](https://user-images.githubusercontent.com/91480603/213303288-e5314fff-350e-4e67-8778-76a519b70426.png)
 
