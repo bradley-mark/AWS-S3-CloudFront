@@ -8,7 +8,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 **Simple overview** **S3+CloudFront**
 
-![image](https://user-images.githubusercontent.com/91480603/211872481-23ed081b-d44d-4180-b964-1a15bad6dcd7.png)
+![image](https://user-images.githubusercontent.com/91480603/214360057-9532fb30-ec01-4493-87c3-c65b64197ffa.png)
 
 # Create a CloudFront distribution
 
