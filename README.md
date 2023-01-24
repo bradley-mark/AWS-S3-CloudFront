@@ -30,7 +30,7 @@ CloudFront caches content at edge locations for a period of time that you specif
 
 **Simple overview** **S3+Route53+CloudFront+AWS Certificate Manager**
 
-![image](https://user-images.githubusercontent.com/91480603/211873795-5b9d8b76-024d-405f-b497-61f210f499cd.png)
+![image](https://user-images.githubusercontent.com/91480603/214359228-a2e00a8e-6b84-47f3-804a-9edf5f049ffd.png)
 
 **AWS Certificate Manager (ACM)**
 
